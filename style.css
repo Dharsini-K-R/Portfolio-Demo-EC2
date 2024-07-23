@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #333, #444);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#about, #services, #portfolio, #contact {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
